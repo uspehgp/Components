@@ -8,6 +8,7 @@ import {SharedModule} from "../shared/shared.module";
 import { CompaniesComponent } from './companies/companies.component';
 import { PartnersComponent } from './partners/partners.component';
 import { BiographyComponent } from './biography/biography.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { BiographyComponent } from './biography/biography.component';
     TableComponent,
     CompaniesComponent,
     PartnersComponent,
-    BiographyComponent
+    BiographyComponent,
+    TabsComponent
   ],
   exports: [],
   imports: [

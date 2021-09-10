@@ -15,7 +15,7 @@ export class CollectionsHomeComponent implements OnInit {
     { key: 'name', label: 'Name' },
     { key: 'age', label: 'Age' },
     { key: 'job', label: 'Job' },
-    {key: 'employed', label: 'Are you employed?'}
+    {key: 'employed', label: 'Has you job?'}
   ];
 
   constructor() {}
