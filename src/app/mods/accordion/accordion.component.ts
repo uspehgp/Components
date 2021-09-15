@@ -17,6 +17,9 @@ export class AccordionComponent implements OnInit {
   }
 
   onOpen(i: number) {
-    this.openedItemIndex = i
+    if (this.openedItemIndex === i)
+      this.openedItemIndex = -1;
+    else
+      this.openedItemIndex = i
   }
 }
